@@ -33,7 +33,7 @@ Animated Music Slider is an interactive web-based music player with a visually s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/animated-music-slider.git
+   git clone https://github.com/SachinPundir78/animated-music-slider.git
    ```
 
 2. Navigate to the project directory:
@@ -74,17 +74,17 @@ This project is open-source and available under the MIT License.
 
 ## 🙌 Credits
 
-- Designed and developed with 💖 by [Your Name]
+- Designed and developed with 💖 by Sachin Pundir
 - Special thanks to Swiper.js for the amazing carousel
 - Album covers and music tracks used for demonstration purposes
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/yourusername/animated-music-slider/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/sachinpundir78/animated-music-slider/issues).
 
 ## 📞 Support
 
-For support, please open an issue or contact [your email/contact method].
+For support, please open an issue or contact sachinpundir732@gmail.com.
 
 ---
 
