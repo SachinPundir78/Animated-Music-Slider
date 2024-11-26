@@ -3,7 +3,7 @@
     { "src": "index.html", "use": "@vercel/static" },
     { "src": "style.css", "use": "@vercel/static" },
     { "src": "script.js", "use": "@vercel/static" },
-    { "src": "Images/*", "use": "@vercel/static" }
+    { "src": "Images/*", "use": "@vercel/static" },
     { "src": "Songs/*", "use": "@vercel/static" }
   ],
   "routes": [
