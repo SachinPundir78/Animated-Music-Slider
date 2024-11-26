@@ -23,8 +23,17 @@
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "index.html" }
-     { "src": "/Images/(.*)", "dest": "/Images/$1" },
-     { "src": "/Songs/(.*)", "dest": "/Songs/$1" },
+    {
+      "src": "/(.*)",
+      "dest": "index.html"
+    },
+    {
+      "src": "/Images/(.*)",
+      "dest": "/Images/$1"
+    },
+    {
+      "src": "/Songs/(.*)",
+      "dest": "/Songs/$1"
+    }
   ]
 }
