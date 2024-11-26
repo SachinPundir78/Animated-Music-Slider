@@ -8,7 +8,7 @@
   ],
   "routes": [
     { "src": "/Images/(.*)", "dest": "/Images/$1" },
-    { "src": "/Songs/(.*)", "dest": "/Songs/$1" }
-    { "src": "/(.*)", "dest": "$1" },
+    { "src": "/Songs/(.*)", "dest": "/Songs/$1" },
+    { "src": "/(.*)", "dest": "$1" }
   ]
 }
