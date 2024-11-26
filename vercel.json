@@ -2,18 +2,6 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "script.js",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "style.css",
-      "use": "@vercel/static"
-    },
-    {
       "src": "Images/**",
       "use": "@vercel/static"
     },
@@ -21,12 +9,20 @@
       "src": "Songs/**",
       "use": "@vercel/static"
     }
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "style.css",
+      "use": "@vercel/static"
+    },
+     {
+      "src": "script.js",
+      "use": "@vercel/static"
+    },
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "index.html"
-    },
     {
       "src": "/Images/(.*)",
       "dest": "/Images/$1"
@@ -35,5 +31,9 @@
       "src": "/Songs/(.*)",
       "dest": "/Songs/$1"
     }
+     {
+      "src": "/(.*)",
+      "dest": "index.html"
+    },
   ]
 }
