@@ -18,14 +18,13 @@
       "use": "@vercel/static"
     },
     {
-      "src": "songs/**",
+      "src": "Songs/**",
       "use": "@vercel/static"
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "index.html"
-    }
+    { "src": "/(.*)", "dest": "index.html" }
+     { "src": "/Images/(.*)", "dest": "/Images/$1" },
+     { "src": "/Songs/(.*)", "dest": "/Songs/$1" },
   ]
 }
